@@ -1,0 +1,96 @@
+﻿id,clause,new-agent,protagonist,location,temporal,goal,causal:no_cause
+1,"I began my illustrious career in journalism in the Bronx where I toiled as a hard boiled reporter for The Ram, the student newspaper at Fordham University.",0,0,0,0,0,0
+2,And one day I'm walking toward the campus center.,0,0,1,1,1,0
+3,"And out comes the elusive Dean McGowan, architect of a policy to replace Fordham's traditionally working to middle class students with wealthier, more prestigious ones.",1,0,0,0,0,1
+4,So I whip out my notebook.,0,0,0,0,1,0
+5,"And I go up to him and I say: Dean McGowan, is it true that Fordham University plans to raise tuition substantially above the inflation rate?",0,0,0,0,0,0
+6,"And if so, wouldn't that be a betrayal of its mission?",0,0,0,0,0,0
+7,And he stops.,0,1,0,0,1,0
+8,And looks at me.,0,0,0,0,0,0
+9,And he says: Listen up punk.,0,0,0,0,0,0
+10,And right then there's a blur in the corner of my eye which becomes this figure holding a cream pie which becomes the guy standing next to me mashing a cream pie into Dean McGowan's face.,1,1,0,0,1,0
+11,And and then runs away.,0,0,0,0,0,0
+12,And the Dean is covered with cream.,0,0,0,0,0,0
+13,So I give him a moment.,0,1,0,0,0,0
+14,"And then I say: Dean McGowan, would you care to comment on this latest attack?",0,0,0,0,1,0
+15,"And the Dean says: Yes, I would care to comment.",0,1,0,0,1,0
+16,Fuck you.,0,0,0,0,1,0
+17,So I race back to the newsroom with my scoop.,0,1,1,1,1,0
+18,"And I, and I find the editor, Jim Dwyer, who's a senior.",1,0,0,0,0,0
+19,And he will go on to win a Pulitzer Prize.,0,0,0,0,0,0
+20,That is true.,0,0,0,0,0,0
+21,And he's a big guy.,0,0,0,0,0,0
+22,I pitch him my story.,0,0,0,0,0,0
+23,I tell him what I've seen.,0,0,0,0,0,0
+24,And he says: Dean McGowan?,0,1,0,0,0,0
+25,That guy's a dick!,0,0,0,0,0,0
+26,Write it up!,0,0,0,0,0,0
+27,So I'm banging out my story.,0,1,1,1,1,0
+28,And I know it's good.,0,0,0,0,0,0
+29,And then I start to make it better by adding an element of embellishment.,0,0,0,0,1,0
+30,Reporters call this making shit up.,0,0,0,0,0,0
+31,And they recommend against crossing that line.,0,0,0,0,0,0
+32,But I had just seen the line crossed between a high powered dean and assault with a pastry.,0,0,0,0,0,0
+33,And I kind of liked it.,0,0,0,0,0,0
+34,"So the first thing I did was, I gave the figure a name.",0,0,0,0,0,0
+35,"I called him Pie Man, capital P, capital M. And I described him as a cape wearing, masked avenger, though in fact, he'd been capeless.",1,0,0,0,0,0
+36,And I said that as he fled the scene he clicked his heels in rakish glee.,0,0,0,0,0,0
+37,And I gave him a catchphrase in Latin.,0,0,0,0,0,1
+38,I said that he cried out: Ego sum non un bestia!,0,0,0,0,0,0
+39,Which means: I am not an animal.,0,0,0,0,0,0
+40,Which makes no sense.,0,0,0,0,0,1
+41,I needed something.,0,0,0,0,0,0
+42,I'm Catholic.,0,0,0,0,0,0
+43,Latin just comes to me.,0,0,0,0,0,0
+44,So I finish my story and I hand it to Dwyer.,0,0,1,1,0,0
+45,And he reads.,0,1,0,0,0,0
+46,"And he says: Pie Man, I love it!",0,0,0,0,0,0
+47,Page one.,0,0,0,0,0,0
+48,And that's how the first line got crossed.,0,0,0,0,0,0
+49,A few days later I get a letter.,0,1,1,1,0,1
+50,"It says: Dear Jim, good story.",0,1,0,0,1,0
+51,Nice details.,0,0,0,0,0,0
+52,"If you want to see me again in action, be on the steps of Duane Library, Tuesday at three o'clock.",0,0,0,0,0,0
+53,"Signed, Pie Man.",0,0,0,0,0,0
+54,So I was there with a photographer from The Ram.,1,1,1,1,1,0
+55,"And sure enough, out comes Sheila Beale, student body president.",1,0,0,0,0,0
+56,And now Sheila was different from me and all the other Fordham students who wore flannel shirts and worked part time jobs.,0,0,0,0,0,0
+57,Sheila was well bred.,0,0,0,0,0,0
+58,Sheila had school spirit.,0,0,0,0,0,0
+59,Sheila was the kind of student that Dean McGowan wanted more of.,0,0,0,0,0,0
+60,Although rumor had it that he got plenty of her in his office on his desk.,0,0,0,0,0,0
+61,"Oh, but that's just a rumor.",0,0,0,0,0,0
+62,Please do not spread it outside this room.,0,0,0,0,0,0
+63,I myself would never say that.,0,0,0,0,0,0
+64,But the fact was Sheila had collaborated with the Dean to ban outdoor drinking on campus.,0,0,0,0,0,0
+65,The infamous no more beer at barbecues rule.,0,0,0,0,0,0
+66,"That's right, boo that rule!",0,0,0,0,0,0
+67,Sheila thought drinking in public was in poor taste.,0,0,0,0,0,0
+68,I think you know what happened next.,0,0,0,0,0,0
+69,"Pie Man emerged from behind the late night library drop box, made his delivery, and fled away crying: Ego sum non un bestia.",1,1,0,0,1,0
+70,"Or at least, that's what it said in my story in the newspaper the next day, which ran with a photo of him leaving the scene cape flowing behind him doing this.",0,0,0,1,0,0
+71,And that's what made him a sensation on campus.,0,0,0,0,0,0
+72,People started dressing like him and and quoting him in class.,0,0,0,0,0,0
+73,"The Ram ran five major stories about Pie Man, all of them by me.",0,0,0,0,0,0
+74,And toward the end of this run I was out at a bar one night.,0,1,1,1,1,0
+75,"And I saw, I came in I saw, in the corner, Angela from my Brit Lit class drinking with some friends.",1,0,0,0,0,1
+76,"And now, Angela and I had been flirting for two months.",0,0,0,0,0,0
+77,"Or, I had been flirting with her.",0,0,0,0,0,0
+78,And with such nuance that there was a question about whether she knew I existed.,0,0,0,0,0,0
+79,So I I saw her there and made a mental note to do nothing about it.,0,0,0,0,1,0
+80,And then I went to the bar to buy a round.,0,0,0,0,1,0
+81,And I felt a tap on my shoulder.,0,0,0,0,0,1
+82,And it was her.,0,0,0,0,0,0
+83,"And she said: Jim, we were just talking about how you always seem to know when and where Pie Man will strike.",0,1,0,0,0,0
+84,And we were wondering.,0,0,0,0,1,0
+85,Are you Pie Man?,0,0,0,0,1,0
+86,"And I knew, by the way she said it, I knew that if I said yes, she would have sex with me.",0,0,0,0,1,0
+87,And wasn't I really Pie Man for having brought him into being?,0,0,0,0,0,0
+88,Didn't she only know about him through me?,0,0,0,0,0,0
+89,But she had asked me a straightforward question that came with a straightforward answer.,0,0,0,0,0,0
+90,"In fact, I wasn't Pie Man.",0,0,0,0,0,0
+91,"As far as I knew, I had never seen the guy out of costume.",0,0,0,0,0,1
+92,So I looked at her.,0,1,0,0,0,0
+93,"And I said: Yes, Angela, I am Pie Man.",0,0,0,0,1,0
+94,"And she said: Oh, good.",0,0,0,0,0,0
+95,Now buy me a beer and tell me all about it.,0,0,0,0,1,0
