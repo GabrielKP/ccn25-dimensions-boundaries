@@ -578,7 +578,8 @@ def fit_eval_eim(
                 fontsize=12,
             )
             fold_str = "" if fold is None else f"_fold{fold}"
-            plot_path = Path(OUTPUT_DIR, "plots", f"tree{fold_str}.png")
+            postfix = config.get("postfix", "")
+            plot_path = Path(OUTPUT_DIR, "plots", f"tree{fold_str}{postfix}.png")
             check_make_dirs(plot_path)
             fig.savefig(plot_path)
 
@@ -789,25 +790,25 @@ def evaluate_boundaries_classifier_cv(config: dict):
     console.print("\nOverall Result", style="green bold")
     print(
         f"Avg Hamming    : {round(np.mean(hammings).item(), 2):.2f}"
-        f" [{q25_h:.3f} {q75_h:.3f}]"
+        f" null percentiles: [{q25_h:.3f} {q75_h:.3f}]"
         f" | Boostrap: {bootstrap_mean_h:.2f}"
         f" |  p = {pval_h:.4f}"
     )
     print(
         f"Avg Precision  : {round(np.mean(precisions).item(), 2):.2f}"
-        f" [{q25_p:.3f} {q75_p:.3f}]"
+        f" null percentiles: [{q25_p:.3f} {q75_p:.3f}]"
         f" | Boostrap: {bootstrap_mean_p:.2f}"
         f" | p = {pval_p:.4f}"
     )
     print(
         f"Avg Recall     : {round(np.mean(recalls).item(), 2):.2f}"
-        f" [{q25_r:.3f} {q75_r:.3f}]"
+        f" null percentiles: [{q25_r:.3f} {q75_r:.3f}]"
         f" | Boostrap: {bootstrap_mean_r:.2f}"
         f" | p = {pval_r:.4f}"
     )
     print(
-        f"Correlation     : {round(np.mean(corrs).item(), 2):.2f}"
-        f" [{q25_c:.3f} {q75_c:.3f}]"
+        f"Correlation    : {round(np.mean(corrs).item(), 2):.2f}"
+        f" null percentiles: [{q25_c:.3f} {q75_c:.3f}]"
         f" | Boostrap: {bootstrap_mean_c:.2f}"
         f" | p = {pval_c:.4f}"
     )
@@ -817,11 +818,14 @@ def evaluate_boundaries_classifier_cv(config: dict):
 
 
 if __name__ == "__main__":
+    # Results Rater 1
+    console.print("\nRater 1", style="red bold")
     config = {
-        "story": "pieman",  # tunnel | pieman | pieman2
-        "ratings_file": "data/ratings/pieman_joint.csv",
+        "story": "tunnel",  # tunnel | pieman | pieman2
+        "ratings_file": "data/ratings/tunnel_rater_1.csv",
         "model_kind": "tree",
         "plot_tree": True,
+        "postfix": "_r1",
         "simple_shuffle": False,
         "dimensions": [
             "new-agent",
@@ -830,6 +834,30 @@ if __name__ == "__main__":
             "temporal",
             "goal",
             "causal:no_cause",
+        ],
+        # k_fold
+        "n_folds": 5,
+        # bootstrapping
+        "bootstrap_seed": 1234,
+        "n_bootstrap": 5000,
+    }
+    evaluate_boundaries_classifier_cv(config)
+
+    # Results Rater 2
+    console.print("\nRater 2", style="red bold")
+    config = {
+        "story": "tunnel",  # tunnel | pieman | pieman2
+        "ratings_file": "data/ratings/tunnel_rater_2.csv",
+        "model_kind": "tree",
+        "plot_tree": True,
+        "postfix": "_r2",
+        "simple_shuffle": False,
+        "dimensions": [
+            "new-agent",
+            "protagonist",
+            "location",
+            "temporal",
+            "goal",
         ],
         # k_fold
         "n_folds": 5,
